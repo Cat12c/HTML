@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+    color: gray;
+
+}
+header {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+ul {
+  display: flex;
+  gap: 32px;
+  padding: 16px 44px;
+}
+
+ul > li {
+    color: grey;
+    font-size: large;
+    font-weight: 500;
+    list-style: none;
+
+  }
+
+ .img-banner{
+    background-image: url("../img/banner.jpg"); 
+    width: 1800px;
+    height: 360px;
+
+}
+
+.img-caridad {
+    background-image: url("../img/caridad.jpeg"); 
+    width: 150px;
+    height: 150px;
+}
+.img-enfermera {
+    background-image: url("../img/enfermera.jpg"); 
+    width: 150px;
+    height: 150px;
+}
+section {
+    margin: 0 16px;
+    display: flex;
+    gap: 64px;
+    background-color: black;
+  }
+
+  .row1 {
+    padding: 28px;
+    background-color: aliceblue;
+    width: 1000px;
+  }
+  
+  .row2 {
+    padding: 28px;
+    background-color: coral;
+    width: 500px;
+  }
+  
+  footer {
+    color: white;
+    background-color: black;
+    padding: 32px;
+    text-align: center;
+  }
