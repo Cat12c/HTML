@@ -1,0 +1,36 @@
+
+//////////////////////////////
+// 1. Patrones de colores
+//////////////////////////////
+$principal:#9391fd;
+$secundario: #d2cf14;
+$blanco:#A6E5F7;
+//////////////////////////////
+/// 2. Modificando las variables de Bootstrap
+//////////////////////////////
+$enable-shadows:true;
+$enable-gradient:true;
+$primary:$principal;
+$light:$blanco;
+
+%card{
+    margin: auto;
+}
+%titulo{
+    font-family: "fantasy";
+}
+%cambiosbody{
+
+}
+.body{
+    @extend %cambiosbody;
+}
+.card{
+    @extend %card;
+}
+
+.titulo{
+    @extend %titulo;
+}
+
+@import "../libs/bootstrap/scss/bootstrap";
